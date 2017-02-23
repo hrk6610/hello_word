@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Task 4 (Webpage)</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script>
+
+        $(document).ready(function(){
+            $('[data-toggle="popover"]').popover();
+        });
+    </script>
+<style type="text/css">
+    .glyphicon-triangle-right
+    {
+        font-size:12px;
+    }
+    a.ec_fevicon
+    {
+        color:white;
+    }
+    a.ec_fevicon:hover
+    {
+        text-decoration: none;
+        color:#5cb85c;
+        transition: color 0.8s;
+    }
+  footer
+  {
+     background-color:#101010;
+     color:white; 
+     border-radius:4px; 
+  }
+  a.name
+  {
+      color:#fff;
+  }
+  a.name:hover
+  {
+    text-decoration:none;
+      color:#5bc0de;
+      transition: color 0.8s;
+  }
+    .fa-stack:hover
+    {
+        color:#5bc0de;
+        transition: color 0.8s;
+        cursor:pointer;
+    }
+    .glyphicon-time
+    {
+        font-size:50px;
+    }
+    .navbar-brand:hover
+    {
+        color:red;
+    }
+    @media only screen and (max-width: 766px) {
+        .col-sm-6
+        {
+            text-align:center;
+        }
+    }
+
+</style>
+</head>
+<body>
+<!-- Navigation -->
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+   <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#"> <i class="fa fa-weixin"></i> EmergingBook.in</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="#"><span class="glyphicon glyphicon-home"></span> Home</a></li>
+      <li><a href="#"> <i class="fa fa-envelope"></i> Messages </a></li>
+      <li><a href="#"><i class="fa fa-user-plus"></i>  Requests </a></li>
+      <li><a href="#"> <i class="fa fa-tasks"></i> Timeline </a></li>
+    </ul>
+    <ul class="nav navbar-nav navbar-right">
+       <form class="navbar-form navbar-right" style="margin:10px 15px;" role="search">
+        <div class="form-group input-group">
+          <input type="text" class="form-control" placeholder="Search....">
+          <span class="input-group-btn">
+            <button class="btn btn-default" type="button">
+              <span class="glyphicon glyphicon-search"></span>
+            </button>
+          </span>
+        </div>
+      </form>
+      <li><a href="#"> <span class="glyphicon glyphicon-user"></span> My Account </a></li>
+    </ul>
+  </div>
+</nav>
+<div class="container-fluid">
+    <div class="row">
+      <div class="col-sm-3">
+        <!-- Left 1st-->
+        <div class="well well-sm text-center">
+        <img src="images/female.png" class="img-circle" alt="Profile pic" width="38%" height="auto">
+        <br><br>
+            <a href="#" title="" data-toggle="popover" data-trigger="hover" data-content="15/3 junction plot,'shree krishna krupa',rajkot-360001" data-placement="right" data-original-title="Kinjal Gondhiya"> <h4><strong>Kinjal Gondhiya</strong> <i class="fa fa-caret-right" aria-hidden="true"></i><br><br></a>
+
+        <button class="btn btn-info"> My Profile <span class="glyphicon glyphicon-triangle-right"></span></button>
+        </div>
+        <!-- Left 2nd-->
+        <div class="well well-sm text-center">
+        <h4> <strong> Intrest</strong></h4>
+            <span class="label label-default">Movies</span>
+            <span class="label label-primary">Traveling</span>
+            <span class="label label-success">Designing</span><br>
+            <span class="label label-default">Designing</span><br>
+            <span class="label label-info">Cycling</span>
+            <span class="label label-warning">Singing</span>
+            <span class="label label-danger">Photoshop</span>
+        </div>
+        <!-- left 3rd-->
+        <div class="alert alert-success fade in text-center">
+            <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+            <strong>Hey ...!!!</strong><br> People are looking at your profile.Find out who 
+        </div>
+        <!-- left 4th-->
+        <ul class="nav nav-pills nav-stacked text-center" style="border:1px solid #ccc;">
+        <li><a href="#"><h4>Your Friends (512)</h4></a></li>
+        <li><a href="#" title="" data-toggle="popover" data-trigger="hover" data-content="5 Junction Main road,'Ganesh Krupa',rajkot-360001" data-placement="right" data-original-title="Akash Varlani (715)"> Aaksh Varlani <i class="fa fa-caret-right" aria-hidden="true"></i><br></a></li>
+        <li><a href="#" title="" data-toggle="popover" data-trigger="hover" data-content="20 Kalawad road,'Shreenathji',rajkot-360005" data-placement="right" data-original-title="Jay Sheth (1002)"> Jay Sheth <i class="fa fa-caret-right" aria-hidden="true"></i><br></a></li>
+        <li><a href="#" title="" data-toggle="popover" data-trigger="hover" data-content="15/7 University road,'Krishna Apt',rajkot-360003" data-placement="right" data-original-title="Mukesh Gadhiya (768)"> Mukesh Gadhiya <i class="fa fa-caret-right" aria-hidden="true"></i><br></a></li>
+
+        <hr>
+        <li>
+          <button class="btn btn-success">See More <span class="glyphicon glyphicon-circle-arrow-right"></span></button>
+          <br>
+          <br>
+        </li>
+      </ul>
+      </div>
+      <!-- Center Col -->
+      <div class="col-sm-6">
+      <h2> <span class="glyphicon glyphicon-time"></span> <br>Stories.... </h2>
+      <hr>
+        <div class="well well-sm">
+            <p><span class="glyphicon glyphicon-user"></span> <strong>Hardik Gondhiya
+                <button class="btn btn-info"><i class="fa fa-users"></i>  Public </button>
+            </strong><hr> <h4>Listening Music <i class="fa fa-headphones"></i> with my #friends....<i class="fa fa-heart-o"></i> </h4></p>
+            <button class="btn btn-default"><i class="fa fa-thumbs-up"></i>  Like </button>
+            <button class="btn btn-default"><i class="fa fa-comment"></i> Comment </button>
+        </div>
+        <div class="col-sm-4">
+            <div class="well well-sm text-center">
+                <img src="images/male.png" class="img-circle" alt="Profile pic" width="45%" height="auto">
+                <br>
+                <a href="#"> Akshay Kumar </a>
+            </div>
+            <div class="well well-sm text-center">
+                <img src="images/male.png" class="img-circle" alt="Profile pic" width="45%" height="auto">
+                <br>
+                <a href="#"> Jay Sheth</a>
+            </div>
+            <div class="well well-sm text-center">
+                <img src="images/male.png" class="img-circle" alt="Profile pic" width="45%" height="auto">
+                <br>
+                <a href="#"> Mukesh Gadhiya </a>
+            </div>
+            <div class="well well-sm text-center">
+                <img src="images/male.png" class="img-circle" alt="Profile pic" width="45%" height="auto">
+                <br>
+                <a href="#"> Sethyo Gondhiya </a>
+            </div>
+            <div class="well well-sm text-center">
+                <img src="images/male.png" class="img-circle" alt="Profile pic" width="45%" height="auto">
+                <br>
+                <a href="#"> Aklo varlani </a>
+            </div>
+        </div>
+        <div class="col-sm-8">
+            <div class="well well-sm text-center">
+               <p>
+                 vestibulum ullamcorper. In psagittis. Pellentesque ursus odio sit amet velit rhoncus maximus. Ut nisi sapien, condimentum et vehicula a, euismod eget ihapsum.mus. Ut nisi sapien, condimentum et vehicmus. Ut nisi sapien...
+                </p>
+            </div>
+            <div class="well well-sm text-center">
+               <p>
+                 vestibulum ullamcorper. In porttitor faucibus congue. Mauris semper tellus sit amet purus eleifend sagittis. Pellentesque ursus odio sit amet velit rhoncus maximus. Ut nisi sapien, condimentum et vehicula a, euismod eget ipsum.
+                </p>
+            </div>
+            <div class="well well-sm text-center">
+               <p>
+                 vestibulum ullamcorper. In porttitor faucibus congue. Mauris semper tellus sit amet purus eleifend sagittis. Pellentesque ursus odio sit amet velit rhoncus maximus. Ut nisi sapien, condimentum et vehicula a, euismod eget ipsum.
+                </p>
+            </div>
+            <div class="well well-sm text-center">
+               <p>
+                 vestibulum ullamcorper. In porttitor faucibus congue. Mauris semper tellus sit amet purus eleifend sagittis. Pellentesque ursus odio sit amet velit rhoncus maximus. Ut nisi sapien, condimentum et vehicula a, euismod eget ipsum.
+                </p>
+            </div>
+            <div class="well well-sm text-center">
+               <p>
+                 vestibulum ullamcorper. In porttitor faucibus congue. Mauris semper tellus sit amet purus eleifend sagittis. Pellentesque ursus odio sit amet velit rhoncus maximus. Ut nisi sapien, condimentum et vehicula a, euismod eget ipsum.
+                </p>
+            </div>
+        </div>
+    </div>
+    <!-- Right Side -->
+    <div class="col-sm-3 text-center">
+        <div class="well well-sm text-center">
+           <p> People You may Know </a>
+           <br><br>  
+           <i class="fa fa-user-plus fa-5x" aria-hidden="true"></i>
+           <br>
+           <a href="#"> Kartik Dave </a>
+           <br>
+           <p>Born:14th July,1985 </p>
+           <button class="btn btn-info"><span class="glyphicon glyphicon-info-sign"></span> Information </button>
+           <br><hr>
+           <i class="fa fa-user-plus fa-5x" aria-hidden="true"></i>
+           <br>
+           <a href="#"> Vimal Khakhar </a>
+           <br>
+           <p>Born:30th jan,1955 </p>
+           <button class="btn btn-success"><span class="glyphicon glyphicon-info-sign"></span> Information </button>
+           <br><hr>
+           <i class="fa fa-user-plus fa-5x" aria-hidden="true"></i>
+           <br>
+           <a href="#"> Shubham Boradia </a>
+           <br>
+           <p>Born:1st Oct,1990 </p>
+           <button class="btn btn-info"><span class="glyphicon glyphicon-info-sign"></span> Information </button>
+            <br><br>
+        </div>
+        <!--- Right Ads --> 
+        <br>
+        <div style="padding:25px;border:1px solid #ccc;" class="well well-sm">Advertize</div>
+        <br>
+        <div style="margin-top:20px;padding:25px;border:1px solid #ccc;" class="well well-sm">Advertize</div>
+    </div> 
+  </div> 
+</div>
+<!-- Fotter -->
+<footer class="container-fluid text-center">
+    <br><br>
+    <span class="fa-stack fa-lg ">
+          <i class="fa fa-square-o fa-stack-2x"></i>
+          <i class="fa fa-facebook fa-stack-1x"></i>
+        </span>
+    <span class="fa-stack fa-lg ">
+        <i class="fa fa-square-o fa-stack-2x"></i>
+        <i class="fa fa-twitter fa-stack-1x"></i>
+    </span>
+    <span class="fa-stack fa-lg ">
+          <i class="fa fa-square-o fa-stack-2x"></i>
+          <i class="fa fa-instagram fa-stack-1x"></i>
+    </span>
+    <span class="fa-stack fa-lg ">
+          <i class="fa fa-square-o fa-stack-2x"></i>
+          <i class="fa fa-google-plus fa-stack-1x"></i>
+    </span>
+    <span class="fa-stack fa-lg ">
+          <i class="fa fa-square-o fa-stack-2x"></i>
+          <i class="fa fa-youtube fa-stack-1x"></i>
+    </span>
+    <br>
+    <img class="ec_fevicon" src="images/ec.png" style="width:44px;height:44px;"><br>
+    <h4><a class="ec_fevicon" href="emergingcoders.com"> Emerging Coders </a></h4>
+    <h4> Design Made By <span class="glyphicon glyphicon-heart-empty"></span> <a href="#" class="name"> Hardik Gondhiya </a> </h4>
+    </form>
+    <br>
+</footer>
+</body>
+</html>
